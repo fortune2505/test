@@ -1,0 +1,86 @@
+* {
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1rem;
+    background-color: indigo;
+}
+#myid {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #f2f2f2;
+}
+.myclass {
+    color: blueviolet;
+    font-style: italic;
+    border: 1px dashed;
+    padding: 1rem;
+    margin: 1rem;
+}
+details {
+    max-width: 500px;
+    width: 1oopx;
+    margin: 0 auto;
+    background-color: beige;
+}
+
+p.para {
+    color: red;
+    padding: 4rem 1rem;
+    border: 2px solid yellow;
+    margin: 2rem 0;
+}
+
+input [type="text"] {
+    width: 300px;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-bottom: 1px solid rgb,(164, 212, 68) ;
+}
+
+input.focus {
+    border: none;
+}
+
+.bg {
+    background-image: url("../img/freedom.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-size: cover;
+    cursor: grabbing;
+    height: 100vh;
+}
+
+b {
+    color: aqua;
+}
+
+pre, b, p {
+    background-color: blueviolet;
+    vertical-align: super;
+    text-indent: 100px;
+    text-transform: capitalize;
+    word-spacing: 0.5rem;
+    line-height: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    
+}
+
+.bg h1 {
+    font-size: 5rem;
+    text-decoration: dashed;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    color: red;
+    text-decoration-thickness: 1rem;
+    text-decoration: none;   
+}
